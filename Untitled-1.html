@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dulce Antojo</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#fff5f7;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#b1123b,#e83e8c);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+     <div class="hero">
+       
+    </div>
+}
+
+header h1{
+    font-size:4rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+.hero-btn{
+    display:inline-block;
+    margin-top:25px;
+    background:white;
+    color:#b1123b;
+    padding:14px 30px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section{
+    padding:70px 10%;
+}
+
+.titulo{
+    text-align:center;
+    color:#b1123b;
+    margin-bottom:40px;
+    font-size:2.2rem;
+}
+
+.producto{
+    max-width:900px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:40px;
+    align-items:center;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.card h3{
+    color:#b1123b;
+    margin-bottom:15px;
+}
+
+.precio{
+    font-size:2rem;
+    font-weight:bold;
+    color:#e83e8c;
+    margin-top:15px;
+}
+
+.ingredientes{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:15px;
+}
+
+.item{
+    background:white;
+    padding:15px;
+    border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.ubicacion{
+    background:#b1123b;
+    color:white;
+    text-align:center;
+}
+
+footer{
+    background:#8e0f31;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header><img src="C:\Users\Francisco Castelan\Desktop\html\imagenes\logo.png" width="200" alt="logo">    
+    <h1> 💕 Dulce Antojo 💕</h1> 
+    <p>Delicioso postre de durazno preparado con ingredientes de calidad.</p>
+    <a href="#pedido" class="hero-btn">Ordenar ahora</a>
+</header>
+
+<section>
+    <h2 class="titulo">Nuestro Producto</h2>
+
+    <div class="producto">
+        <div class="card">
+            <h3>Postre de Durazno</h3>
+            <p>
+                Un delicioso postre elaborado con queso crema,
+                media crema, leche condensada, limón, duraznos
+                y galletas María.
+            </p>
+
+            <div class="precio">$55 MXN</div>
+        </div>
+
+        <div class="card">
+            <h3>¿Por qué elegirnos?</h3>
+            <p>
+                Preparado de forma artesanal, con ingredientes frescos
+                y una combinación cremosa que crea un sabor único.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 class="titulo">Ingredientes</h2>
+
+    <div class="ingredientes">
+        <div class="item">Queso crema</div>
+        <div class="item">Media crema</div>
+        <div class="item">Leche Clavel</div>
+        <div class="item">Leche condensada</div>
+        <div class="item">Limones</div>
+        <div class="item">Duraznos</div>
+        <div class="item">Galletas María</div>
+    </div>
+</section>
+
+<section class="imagenes">
+       <div class="card" style="max-width:100%;margin:auto;text-align:center;">
+    <h2 class="titulo">📸 Imagenes</h2>
+    <br>
+        <img src="C:\Users\Francisco Castelan\Desktop\html\imagenes\imagen 1.png" width="200" alt="imagen 1">
+        <img src="C:\Users\Francisco Castelan\Desktop\html\imagenes\imagen 2.png" width="200" alt="imagen 2">
+        <img src="C:\Users\Francisco Castelan\Desktop\html\imagenes\imagen 3.png" width="200" alt="imagen 3">    
+</section>
+
+<section class="ubicacion">
+    <h2>📍 Ubicación</h2>
+    <br>
+    <p>
+        Zamora esquina Hidalgo, bajando los baños de la iglesia.
+    </p>
+</section>
+
+<section id="pedido">
+    <h2 class="titulo">Haz tu pedido</h2>
+
+    <div class="card" style="max-width:600px;margin:auto;text-align:center;">
+        <p>
+            Contáctanos para realizar pedidos y conocer disponibilidad.
+        </p>
+        <br>
+        <a  class="hero-btn">
+            WhatsApp 922 184 5577
+        </a>
+    </div>
+</section>
+
+<footer>
+    © 2026 Dulce Antojo - Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
